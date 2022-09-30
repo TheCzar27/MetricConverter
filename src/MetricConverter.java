@@ -14,16 +14,16 @@ public class MetricConverter {
                         targetNum = sourceNum / (float) 1.6;
                         break;
                     case "ly":
-                        targetNum = sourceNum / (float) 0.00000000000010570;
+                        targetNum = sourceNum * (float) 0.00000000000010570;
                         break;
                     case "ft":
-                        targetNum = sourceNum / (float) 3280.8;
+                        targetNum = sourceNum * (float) 3280.8;
                         break;
                     case "cm":
-                        targetNum = sourceNum / (float) 100000;
+                        targetNum = sourceNum * (float) 100000;
                         break;
                     case "mm":
-                        targetNum = sourceNum / (float) 1000000;
+                        targetNum = sourceNum * (float) 1000000;
                         break;
                     default:
                         System.out
